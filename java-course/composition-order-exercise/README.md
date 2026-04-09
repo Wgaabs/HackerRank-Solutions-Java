@@ -21,3 +21,16 @@ Sistema de pedidos em Java que demonstra conceitos fundamentais de Orientação 
 
 ## 📂 Estrutura
 
+src/
+├── entities/
+│ ├── Client.java
+│ ├── Order.java
+│ ├── OrderItem.java
+│ ├── OrderStatus.java
+│ └── Product.java
+└── Main.java
+
+
+
+## 🎓 Contexto
+Estudo de fundamentos Java (Nélio Alves + DIO) focado em boas práticas e preparação para backend.
