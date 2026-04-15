@@ -1,16 +1,14 @@
-# IDE files
+# IDEs
 .idea/
 *.iml
 *.iws
-*.ipr
 
 # Compiled files
 *.class
 *.jar
 *.war
-out/
+*.ear
 target/
-build/
 
 # OS files
 .DS_Store
