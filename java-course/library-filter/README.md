@@ -1,56 +1,66 @@
-A simple Java command-line application for book registration and filtering. This project was developed to practice Object-Oriented Programming (OOP) concepts, list manipulation, and console data input.
+# 📚 Library Filter
 
-🚀 Features
-Dynamic Registration: The user defines how many books to register.
+A Java command-line application for book registration and filtering,
+developed to practice Object-Oriented Programming, list manipulation
+and console input handling.
 
-List Storage: Uses ArrayList to manage objects in memory efficiently.
+## ✨ Features
 
-Smart Filtering: Automatically filters and displays only books published after the year 2000.
+- **Dynamic Registration** → User defines how many books to register
+- **List Storage** → Uses ArrayList to manage objects in memory
+- **Smart Filtering** → Displays only books published after the year 2000
+- **Buffer Management** → Proper Scanner handling for multi-word inputs
 
-Buffer Management: Implements Scanner buffer clearing to ensure proper reading of strings with spaces.
+## 🛠️ Tech Stack
 
-🛠️ Technologies
-Language: Java (JDK 17+ recommended)
+- Java 21
+- OOP principles
+- java.util.ArrayList
 
-Paradigm: Object-Oriented Programming (OOP)
+## 📂 Project Structure
+library-filter/
+├── src/
+│   ├── Book.java      → Object model (Title, Author, Year)
+│   └── Program.java   → Main class with execution logic
 
-Data Structure: java.util.ArrayList
+## 🏁 How to Run
 
-📂 Project Structure
-The project consists of two main classes:
-
-Book.java: Defines the object model (Title, Author, and Year).
-
-Program.java: Main class containing the execution logic and user interaction.
-
-🏁 How to Run
-Clone the repository:
-
-Bash
+```bash
+# Clone the repository
 git clone https://github.com/Wgaabs/java-studies.git
-Navigate to the project folder:
 
-Bash
-cd java-course/book-manager  # Or your specific project path
-Compile the files:
+# Navigate to the project
+cd java-course/library-filter
 
-Bash
-javac Program.java Book.java
-Run the application:
+# Compile
+javac src/Book.java src/Program.java
 
-Bash
-java Program
-📝 Usage Example
-Plaintext
-Enter the number of books: 2
-Title: The Lord of the Rings
-Author: J.R.R. Tolkien
-Year: 1954
+# Run
+java -cp src Program
+```
 
-Title: Harry Potter and the Philosopher's Stone
-Author: J.K. Rowling
-Year: 1997
-
+## 📝 Example
+Enter the number of books: 3
+Title: Clean Code
+Author: Robert Martin
+Year: 2008
+Title: Java 1.0 Guide
+Author: James Gosling
+Year: 1996
+Title: Effective Java
+Author: Joshua Bloch
+Year: 2001
 Books published after 2000:
-(No results will be shown for this specific example)
-This project is part of my learning journey in Java and Object-Oriented Programming.
+Clean Code - Robert Martin (2008)
+Effective Java - Joshua Bloch (2001)
+
+## 📌 Concepts Applied
+
+- Classes and encapsulation
+- Constructors and getters
+- ArrayList and for-each loop
+- Scanner input with buffer management
+- Conditional filtering
+
+---
+*Part of my Java learning journey — github.com/Wgaabs*
