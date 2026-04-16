@@ -27,5 +27,6 @@ public class Program {
                 System.out.println(b.getTitle() + " - " + b.getAuthor() + " (" + b.getYear() + ")");
             }
         }
+        sc.close();
     }
 }
