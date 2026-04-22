@@ -12,7 +12,7 @@ The project is organized by challenge folders. Each folder contains the `src/Sol
 | Challenge | Topic | Status |
 | :--- | :--- | :---: |
 | [01. Welcome to Java!](./01-welcome-to-java) | Basic Syntax | ✅ |
-| 02. Java Stdin and Stdout I | Input/Output | ⏳ |
+| 02. Java Stdin and Stdout I | Input/Output | ✅ |
 
 ## 🛠️ Tech Stack & Tools
 
